@@ -9,10 +9,10 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/boilerplate-templates/assets/css/bootstrap.min.css">
 
   <!-- Icons -->
-  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="shortcut icon" href="/boilerplate-templates/favicon.png">
 </head>
 
 
@@ -26,14 +26,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="">OWTF Boilerplate Templates</a>
+            <a class="navbar-brand" href="/boilerplate-templates">OWTF Boilerplate Templates</a>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="active"><a href="http://blog.7-a.org">Blog</a></li>
               <li><a href="http://github.com/owtf/owtf">Github</a></li>
-              <li><a href="/templates/">Templates</a></li>
+              <li><a href="/boilerplate-templates/templates/">Templates</a></li>
             </ul>
           </div>
         </div>
@@ -41,8 +41,8 @@
 
   <div class="container">
     <ul class="breadcrumb">
-  <li><a href="">Home</a></li>
-  <li><a href="/templates/">Templates</a></li>
+  <li><a href="/boilerplate-templates">Home</a></li>
+  <li><a href="/boilerplate-templates/templates/">Templates</a></li>
   <li class="active">SQL Injection</li>
 </ul>
 
@@ -58,7 +58,7 @@
 <h2 id="description">Description:</h2>
 <p>A successful SQL injection exploit can read sensitive data from the database, accept data from an untrusted internet source, modify the data, execute administrative operations on the database(shutting down the DBMS), recover the content of a given file present on the DBMS file system and in certain cases issue commands to the operating system.</p>
 
-<p>For more details:- <a href="https://www.owasp.org/index.php/SQL_Injection">OWASP guide on SQL Injection</a> </p>
+<p>For more details:- <a href="https://www.owasp.org/index.php/SQL_Injection">OWASP guide on SQL Injection</a></p>
 
 <p>Also see:-<a href="http://cwe.mitre.org/data/definitions/89.html">MITRE definitions</a></p>
 
@@ -77,10 +77,10 @@
 
 <p>For more details: <a href="https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OWASP-DV-005)">OWASP Testing for SQL injection attacks</a></p>
 
-<p>See SQL-Injection <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">OWASP Prevention cheat sheet</a> </p>
+<p>See SQL-Injection <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">OWASP Prevention cheat sheet</a></p>
 
 <h2 id="cvss-base-score">CVSS Base Score:</h2>
-<p><a href="http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:L/AU:N/C:P/I:P/A:P%29&amp;version=2.0">7.5 (AV:N/AC:L/AU:N/C:P/I:P/A:P)</a> </p>
+<p><a href="http://nvd.nist.gov/cvss.cfm?vector=%28AV:N/AC:L/Au:N/C:P/I:P/A:P%29&amp;version=2.0">7.5 (AV:N/AC:L/Au:N/C:P/I:P/A:P)</a></p>
 
 </div>
 </div>
@@ -90,7 +90,17 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="//cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/assets/js/typeahead.bundle.js"></script>
-  <script type="text/javascript" src="/assets/js/app.js"></script>
+  <script type="text/javascript" src="/boilerplate-templates/assets/js/typeahead.bundle.js"></script>
+  <script type="text/javascript" src="/boilerplate-templates/assets/js/app.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49529910-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
   </body>
 </html>

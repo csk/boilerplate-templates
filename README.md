@@ -19,4 +19,7 @@ For `ssi-injection` it would be:
     url: /templates/ssi-injection
     author: "<your name>"
   ```
+
+1. Install [Jekyll](http://jekyllrb.com/) with `gem install jekyll`
+1. Try out your changes to see if it is working as expected. Serve the project using `jekyll serve --baseurl=/boilerplate-templates` 
 1. All done, open a pull request!
